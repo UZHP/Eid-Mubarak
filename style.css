@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     z-index: 5;
-    overflow: hidden;
 }
 
 body {
@@ -160,7 +159,8 @@ a:hover {
 
 @keyframes sh1 {
     100% {
-        left: 192%;
+        display: none;
+        left: 100%;
     }
 }
 
@@ -174,11 +174,13 @@ a:hover {
     width: 90px;
     height: 90px;
     animation-name: sh2;
+    animation-delay: 2s;
 }
 
 @keyframes sh2 {
     100% {
-        left: 146%;
+        display: none;
+        left: 100%;
     }
 }
 
@@ -193,11 +195,13 @@ a:hover {
     width: 90px;
     height: 90px;
     animation-name: sh3;
+    animation-delay: 4s;
 }
 
 @keyframes sh3 {
     100% {
-        left: 123%;
+        display: none;
+        left: 100%;
     }
 }
 
@@ -238,7 +242,7 @@ a:hover {
 
 .back {
     position: absolute;
-    bottom: -325px;
+    bottom: 0px;
     width: 100%;
     opacity: 25%;
     z-index: 1;
