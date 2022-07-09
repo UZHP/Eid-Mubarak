@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    z-index: 5;
 }
 
 body {
@@ -232,4 +233,12 @@ a:hover {
     right: 20px;
     opacity: 50%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back {
+    position: absolute;
+    bottom: -325px;
+    width: 100%;
+    opacity: 25%;
+    z-index: 1;
 }
