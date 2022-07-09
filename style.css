@@ -11,6 +11,7 @@ body {
     text-transform: capitalize;
     font-family: "Cairo", sans-serif;
     overflow: hidden;
+    overflow-x: hidden;
     cursor: url(https://i.postimg.cc/W3sMYzZ9/5.png), default !important;
 }
 
@@ -159,7 +160,7 @@ a:hover {
 
 @keyframes sh1 {
     100% {
-        display: none;
+        
         left: 100%;
     }
 }
@@ -179,7 +180,7 @@ a:hover {
 
 @keyframes sh2 {
     100% {
-        display: none;
+        
         left: 100%;
     }
 }
@@ -200,7 +201,7 @@ a:hover {
 
 @keyframes sh3 {
     100% {
-        display: none;
+        
         left: 100%;
     }
 }
