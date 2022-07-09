@@ -23,6 +23,65 @@ a:hover {
     opacity: 75%;
 }
 
+::selection {
+    background: transparent;
+    color: #F94C66;
+}
+
+.start {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #FFF;
+    /* background-image: linear-gradient(to right, #F94C66 20%, #AB7233 20%, #AB7233 40%, #79CFC6 40%, #79CFC6 60%, #5D9239 60%, #5D9239 80%, #FFF 80%, #FFF 100%); */
+    animation-name: left;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    z-index: 15;
+    visibility: hidden;
+}
+
+@keyframes left {
+    0% {
+        left: 0;
+        visibility: visible;
+    }
+    100% {
+        left: -50%;
+    }
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #FFF;
+    animation-name: right;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    z-index: 15;
+    visibility: hidden;
+}
+
+@keyframes right {
+    0% {
+        right: 0;
+        visibility: visible;
+    }
+    100% {
+        right: -50%;
+    }
+}
+
 .backUp {
     width: 100%;
     position: absolute;
