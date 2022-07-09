@@ -137,6 +137,68 @@ a:hover {
     }
 }
 
+
+.sheep {
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.sh1 {
+    left: -11.5%;
+}
+
+.sh1 {
+    position: absolute;
+    bottom: 40px;
+    width: 90px;
+    height: 90px;
+    animation-name: sh1;
+}
+
+@keyframes sh1 {
+    100% {
+        left: 192%;
+    }
+}
+
+.sh2 {
+    left: -46%;
+}
+
+.sh2 {
+    position: absolute;
+    bottom: 40px;
+    width: 90px;
+    height: 90px;
+    animation-name: sh2;
+}
+
+@keyframes sh2 {
+    100% {
+        left: 146%;
+    }
+}
+
+.sh3 {
+    left: -92%;
+}
+
+
+.sh3 {
+    position: absolute;
+    bottom: 40px;
+    width: 90px;
+    height: 90px;
+    animation-name: sh3;
+}
+
+@keyframes sh3 {
+    100% {
+        left: 123%;
+    }
+}
+
 .dHText {
     margin-top: 20px;
 }
