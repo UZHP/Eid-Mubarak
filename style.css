@@ -58,6 +58,9 @@ a:hover {
 }
 
 .upText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     position: absolute;
     top: -75px;
