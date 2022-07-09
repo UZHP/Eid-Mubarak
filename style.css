@@ -12,10 +12,6 @@ body {
     cursor: url(https://i.postimg.cc/W3sMYzZ9/5.png), default !important;
 }
 
-img {
-    display: inline;
-}
-
 a {
     color: inherit;
     text-decoration: none;
